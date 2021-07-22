@@ -4,7 +4,7 @@ void sender();
 void receiver();
 void main()
 {
-	
+	//Giving Choice 
 	int choice;
 	printf("\n\t~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Enter Choice~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\t\n");
 	printf("\n\t 1.\t Sending Message From Sender Side and Generating Parity Bits");
@@ -24,6 +24,7 @@ void main()
 	
 }
 
+//Sender Function Implementation
 void sender()
 {
 	int number_of_frames, frame_size, i, j;
@@ -122,6 +123,8 @@ printf("%d\t",column_parity[i]);*/
 //if(count_r[i]%2 == 0)
 
 }
+
+//Receiver Function Implementation
 
 void receiver()
 {
